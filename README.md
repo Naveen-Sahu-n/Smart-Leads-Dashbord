@@ -45,6 +45,12 @@ This dashboard allows users to manage leads efficiently, with authentication, ro
 - Loading states, empty states, and error handling
 - Form validation
 
+Create a .env file in the backend folder using .env.example as reference:
+
+PORT=5000
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret
+
 ### Additional Features
 - CSV export of leads
 - Docker setup ready
